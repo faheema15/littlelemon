@@ -1,0 +1,26 @@
+.title_ll {
+    margin-top: 150px;
+    color: #c9a800;
+    font-size: 60px;
+    text-align: center;
+}
+
+.p {
+    margin: 20px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.plast {
+    margin: 20px;
+    margin-bottom: 90px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}

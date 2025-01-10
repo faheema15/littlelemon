@@ -1,0 +1,46 @@
+.menulist .title_ml {
+    color: #495E57;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.menulist .title2 {
+    color: #c9a800;
+    font-size: 30px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.menulist .menu-container {
+    margin-top: 5px;
+}
+
+.menulist .menu-content_ml {
+    padding-top: 2px;
+    padding-bottom: 10px;
+    height: 120px;
+    position: relative; /* Ensure layout stability */
+}
+
+.menulist .recipetitle {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.menulist .recipedesc {
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 5px; /* Space below description */
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.menulist .menu-items {
+    margin-bottom: 40px; /* Space between rows */
+}
+
+
+

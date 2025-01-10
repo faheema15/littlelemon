@@ -1,0 +1,167 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background: #fff;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.signin-container{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.signin-title{
+    margin-top: 75px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-label{
+    margin-top: 20px;
+}
+
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+}
+
+.signin-container input:focus{
+    outline: 3px solid #c2f2ff;
+}
+
+
+
+.signin-container button {
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #F4CE14;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    font-size: 15px;
+}
+
+.signin-container button:hover {
+    background: #ebc712;
+}
+
+
+.sigin-container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+
+.signin-signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.signin-signup-btn:hover{
+    background: #f1f1f1;
+}
+
+
+.signin-account{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+/* Styles for the popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Styles for the popup content */
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Style for the heading inside popup */
+  .popup-content h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #495E57; /* Green color for success */
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the close button inside the popup */
+  .popup-close-button {
+    padding: 10px 20px;
+    background-color: #F4CE14;
+    color: #495E57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .popup-close-button:hover {
+    background-color: #F4CE14;
+  }
+  
+  /* Optional: Close button in the popup with hover effect */
+  .popup-close-button:focus {
+    outline: none;
+  }
+  

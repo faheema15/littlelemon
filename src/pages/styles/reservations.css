@@ -1,0 +1,196 @@
+.reservation-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #495e57;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.resh1 {
+    color: #c9a800;
+    text-align: left;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.radio-buttons {
+    display: flex; /* Aligns children in a row */
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    gap: 50px; /* Adjust spacing between groups */
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    flex-wrap: nowrap; /* Prevents wrapping of radio buttons */
+}
+
+.radio-buttons label {
+    display: flex; /* Aligns radio buttons and text in a single row */
+    align-items: center; /* Ensures alignment */
+    gap: 10px; /* Adds spacing between the radio button and text */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+
+.radio-buttons input[type="radio"] {
+    transform: scale(1.5); /* Adjust the size of the radio button */
+    accent-color: #F1D18A; /* Sets custom color for the radio button */
+    margin: 0; /* Removes any extra margins */
+    padding: 0; /* Removes padding to align perfectly */
+}
+
+.dropdowns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px; /* Vertical spacing */
+    column-gap: 100px; /* Horizontal spacing */
+    width: 65%;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.dropdowns label {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    color: #ffffff; /* White text */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: #fff !important;
+    margin-left: 180px;
+    font-size: 16px;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+}
+
+select:focus {
+    border: 1px solid #F1D18A;
+    outline: none;
+}
+
+.form-fields label {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9; /* Light gray */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    outline: none;
+    border-color: #c9a800; /* Gold */
+    box-shadow: 0 0 5px rgba(201, 168, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+    .dropdowns {
+        grid-template-columns: 1fr;
+    }
+}
+
+.reserve-button {
+    background-color: #f9c81a;
+    color: #495E57;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 560px;
+    margin-right: 600px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.reserve-button:hover {
+    background-color: #e8b917;
+}
+
+.popup-message {
+    position: fixed; /* Ensures the popup stays fixed in the viewport */
+    top: 50%; /* Vertically centers the popup */
+    left: 50%; /* Horizontally centers the popup */
+    transform: translate(-50%, -50%); /* Adjusts positioning to truly center */
+    padding: 20px 30px; /* Adds internal spacing */
+    background-color: #c9a800; /* Success green color */
+    color: #495E57; /* White text for contrast */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    font-size: 18px; /* Text size for readability */
+    font-weight: bold; /* Makes the message stand out */
+    text-align: center; /* Centers the text */
+    z-index: 1000; /* Ensures it appears on top of other elements */
+    animation: fadeIn 0.5s ease-out; /* Adds a fade-in effect */
+}
+
+/* Add a close button (optional) */
+.popup-message button {
+    margin-top: 15px;
+    background-color: #495E57; /* White background for the button */
+    color: #c9a800; /* Green text for button */
+    border: 2px solid #c9a800; /* Border matches the main popup color */
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.popup-message button:hover {
+    background-color:#c9a800; /* Hover background color */
+    color: #495E57; /* Hover text color */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.form-container input {
+    margin-bottom: 10px; /* Ensures uniform spacing between input fields */
+}
+
+.dropdowns label {
+    margin-bottom: 10px; /* Reduces spacing between label and input */
+}
