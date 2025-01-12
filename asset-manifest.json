@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/littlelemon/static/css/main.532019dc.css",
+    "main.js": "/littlelemon/static/js/main.bff1f407.js",
+    "static/media/bruchetta.svg": "/littlelemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greeksalad.jpg": "/littlelemon/static/media/greeksalad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/littlelemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/logo.svg": "/littlelemon/static/media/logo.f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/sardines.jfif": "/littlelemon/static/media/sardines.f5ccb89fc7d03e2eb20c.jfif",
+    "static/media/souvlaki.jfif": "/littlelemon/static/media/souvlaki.4cb0ccba15987ff6bc2e.jfif",
+    "static/media/shakshuka.jfif": "/littlelemon/static/media/shakshuka.be2933cb933a6de232dd.jfif",
+    "static/media/mezze.jfif": "/littlelemon/static/media/mezze.1c7f2379b86d3e37f6b7.jfif",
+    "static/media/falafel.jfif": "/littlelemon/static/media/falafel.0ad33d3de1151f6f0ec1.jfif",
+    "static/media/babaghanoush.jfif": "/littlelemon/static/media/babaghanoush.c6f1bf2c1841c2e3d8a5.jfif",
+    "static/media/fattoush.jfif": "/littlelemon/static/media/fattoush.829ee5c8d1d3d543ec07.jfif",
+    "static/media/spanakopita.jfif": "/littlelemon/static/media/spanakopita.e18ec65e860edd50c191.jfif",
+    "static/media/mousakka.jfif": "/littlelemon/static/media/mousakka.cd18d86beb9458a8e932.jfif",
+    "index.html": "/littlelemon/index.html",
+    "main.532019dc.css.map": "/littlelemon/static/css/main.532019dc.css.map",
+    "main.bff1f407.js.map": "/littlelemon/static/js/main.bff1f407.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532019dc.css",
+    "static/js/main.bff1f407.js"
+  ]
+}
