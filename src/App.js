@@ -6,7 +6,7 @@ import Header2 from './components/header2';
 import Footer from './components/Footer';
 import About from './pages/about';
 import Menulist from './pages/menulist';
-import Reservations from './pages/reservations'; 
+import Reservations from './pages/reservations';
 import OrderOnline from './pages/orderonline';
 import Login from './pages/login';
 import { Routes, Route } from 'react-router-dom';
@@ -21,7 +21,7 @@ function App() {
             <Nav loggedInName={loggedInName} />
 
             <Routes>
-                {/* Home Page: Nav + Header + Menu + Footer */}
+                {/* Home Page: Header + Menu + Footer */}
                 <Route
                     path="/"
                     element={
@@ -32,8 +32,7 @@ function App() {
                         </>
                     }
                 />
-
-                {/* About Page: Nav + Header + Footer */}
+                {/* About Page: Header + About + Footer */}
                 <Route
                     path="/about"
                     element={
@@ -44,8 +43,7 @@ function App() {
                         </>
                     }
                 />
-
-                {/* Other Pages: Nav + Footer */}
+                {/* Menu Page */}
                 <Route
                     path="/menu"
                     element={
@@ -55,6 +53,7 @@ function App() {
                         </>
                     }
                 />
+                {/* Reservations Page */}
                 <Route
                     path="/reservations"
                     element={
@@ -64,6 +63,7 @@ function App() {
                         </>
                     }
                 />
+                {/* Order Online Page */}
                 <Route
                     path="/orderonline"
                     element={
@@ -73,11 +73,11 @@ function App() {
                         </>
                     }
                 />
+                {/* Login Page */}
                 <Route
                     path="/login"
                     element={
                         <>
-                            {/* Pass setLoggedInName to Login for updating the user's name */}
                             <Login setLoggedInName={setLoggedInName} />
                             <Footer />
                         </>
