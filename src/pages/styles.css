@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background: #fff;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.signin-container{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.signin-title{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.input-label{
+    margin-top: 20px;
+}
+
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+}
+
+.signin-container input:focus{
+    outline: 3px solid #c2f2ff;
+}
+
+.signin-container button{
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #F4CE14;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin-container button:hover{
+    background: #ebc712;
+}
+
+.sigin-container hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+
+
+.signin-signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.signin-signup-btn:hover{
+    background: #f1f1f1;
+}
+
+
+.signin-account{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px solid red;
+}
