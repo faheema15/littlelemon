@@ -2,7 +2,7 @@
   "name": "littlelemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://faheema15.github.io/littlelemon.git",
+  "homepage": "https://faheema15.github.io/littlelemon",
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "cra-template": "1.2.0",

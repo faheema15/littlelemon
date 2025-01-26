@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
@@ -9,19 +10,14 @@ import Menulist from './pages/menulist';
 import Reservations from './pages/reservations';
 import OrderOnline from './pages/orderonline';
 import Login from './pages/login';
-import { Routes, Route } from 'react-router-dom';
 
 function App() {
-    // State to store the logged-in user's name
     const [loggedInName, setLoggedInName] = useState("");
 
     return (
-        <>
-            {/* Pass loggedInName to Nav for displaying "Hi, [name]!" */}
+        <BrowserRouter basename="/littlelemon">
             <Nav loggedInName={loggedInName} />
-
             <Routes>
-                {/* Home Page: Header + Menu + Footer */}
                 <Route
                     path="/"
                     element={
@@ -32,7 +28,6 @@ function App() {
                         </>
                     }
                 />
-                {/* About Page: Header + About + Footer */}
                 <Route
                     path="/about"
                     element={
@@ -43,7 +38,6 @@ function App() {
                         </>
                     }
                 />
-                {/* Menu Page */}
                 <Route
                     path="/menu"
                     element={
@@ -53,7 +47,6 @@ function App() {
                         </>
                     }
                 />
-                {/* Reservations Page */}
                 <Route
                     path="/reservations"
                     element={
@@ -63,7 +56,6 @@ function App() {
                         </>
                     }
                 />
-                {/* Order Online Page */}
                 <Route
                     path="/orderonline"
                     element={
@@ -73,7 +65,6 @@ function App() {
                         </>
                     }
                 />
-                {/* Login Page */}
                 <Route
                     path="/login"
                     element={
@@ -84,7 +75,7 @@ function App() {
                     }
                 />
             </Routes>
-        </>
+        </BrowserRouter>
     );
 }
 
